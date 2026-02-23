@@ -1,10 +1,10 @@
-# TodoIt - Modern Task Management Application
+# TodoIt - To-Do List
 
 TodoIt is a premium, responsive task management dashboard built with **Next.js 15** and **Tailwind CSS 4**. It features a sleek dark-themed interface with glassmorphism effects, a centralized dashboard with progress tracking, and category-specific task management.
 
 ## Live Preview
 
-
+https://toodoit.vercel.app/
 
 ## Key Features
 
