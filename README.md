@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# TodoIt - Modern Task Management Application
 
-## Getting Started
+TodoIt is a premium, responsive task management dashboard built with **Next.js 15** and **Tailwind CSS 4**. It features a sleek dark-themed interface with glassmorphism effects, a centralized dashboard with progress tracking, and category-specific task management.
 
-First, run the development server:
+## Live Preview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Key Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Fully Responsive Design**: Seamless experience across mobile, tablet, and desktop.
+- **Specialized Mobile Layout**: Intelligent reordering of elements on small screens (tasks above stats) and side-by-side statistics for optimal one-handed use.
+- **Category Filtering**: Organize your life with dedicated views for **Work**, **Personal**, **Health**, and **Shopping**.
+- **Real-time Progress**: Track your daily goals with a dynamic progress bar on the main dashboard.
+- **Premium Dark Mode**: A high-contrast, modern UI with subtle animations and glassmorphism.
+- **Persistent Storage**: Uses LocalStorage to keep your tasks saved in the browser.
 
-## Learn More
+## Technology Stack
 
-To learn more about Next.js, take a look at the following resources:
+- **Framework**: [Next.js 15 (App Router)](https://nextjs.org/)
+- **UI Library**: [React 19](https://react.dev/)
+- **Styling**: [Tailwind CSS 4](https://tailwindcss.com/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **State Management**: React Hooks (useState, useEffect)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Installation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+To run this project locally, follow these steps:
 
-## Deploy on Vercel
+1. **Clone the repository**:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   git clone https://github.com/sawnedcom/Todoit.git
+   cd Todoit
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+2. **Install dependencies**:
+
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server**:
+
+   ```bash
+   npm run dev
+   ```
+
+4. **Access the application**:
+   Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## Usage
+
+- **Dashboard**: View your overall progress and today's tasks.
+- **Sidebar**: Navigate through different categories and filter tasks (Completed, Pending).
+- **Add Tasks**: Click the **+ Add New Task** button to create tasks with title, description, priority, category, and due date.
+- **Mobile Menu**: Use the hamburger icon on mobile to toggle the navigation drawer.
+
+---
+
+Built by sawnedcom
